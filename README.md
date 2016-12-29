@@ -16,6 +16,8 @@ To get started, you need MongoDB installed or hosted somewhere, then edit [serve
   ```
   If you're already in the project folder, you can type `ng init` instead of `ng new my-project`.
   
+  If you want to use SASS/SCSS/Less etc., use the `--style=scss` option with `ng new my-project` or `ng init`. (Obviously, if you want less, it would be `--style=less` etc.)
+  
   (Note, I organized the files into styles, templates, and tests folders. By default, everything gets dumped into app.)
 - Then update the dependencies to your liking, and also run:
   
