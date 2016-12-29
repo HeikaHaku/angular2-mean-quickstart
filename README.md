@@ -10,14 +10,16 @@ To get started, you need MongoDB installed or hosted somewhere, then edit <serve
 
 - Either clone this project and update the Mongo Connection as mentioned above, or run these commands:
   
-  ```node.js
+  ```node
   npm i -g angular-cli
-  ng new my-project (or ng init if you're already in the project folder)
+  ng new my-project
   ```
+  If you're already in the project folder, you can type `ng init` instead of `ng new my-project`.
+  
   (Note, I organized the files into styles, templates, and tests folders. By default, everything gets dumped into app.)
 - Then update the dependencies to your liking, and also run:
   
-  ```node.js
+  ```node
   npm i --save mongoose body-parser
   ```
 
