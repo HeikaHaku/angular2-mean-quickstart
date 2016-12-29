@@ -24,3 +24,10 @@ To get started, you need MongoDB installed or hosted somewhere, then edit <serve
   ```
 
 - Then make a server.js file or copy this one, and set up your server folder to your liking, and create api.js and models for the database.
+
+## Running the server
+
+Simply type `npm run start` or simple `npm start` to start the server. It will then serve your angular project as normal, but the /api route will be mapped to the back-end you've set up.
+
+## Interacting with the back end.
+Coming Soon. (With Examples.
