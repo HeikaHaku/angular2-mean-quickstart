@@ -4,7 +4,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 ## Requirements
 
-To get started, you need MongoDB installed or hosted somewhere, then edit <server/routes/api.js> to point to your MongoDB server, as well as the database name you intend to use for this project.
+To get started, you need MongoDB installed or hosted somewhere, then edit [server/routes/api.js](https://github.com/HeikaHaku/angular2-mean-quickstart/blob/master/server/routes/api.js) to point to your MongoDB server, as well as the database name you intend to use for this project.
 
 ## Installation
 
