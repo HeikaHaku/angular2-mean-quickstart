@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/MyDatabase');
+var db = mongoose.connection? mongoose.connection: mongoose.createConnection('mongodb://localhost/MyDatabase');
 var Schema = mongoose.Schema;
 
 //TODO: User Model.
@@ -20,6 +20,6 @@ userSchema.pre('save', function(next) {
   next();
 });
 
-var User = mongoose.model('User', userSchema);
+var User = db.model('User', userSchema);
 
 module.exports = User;
